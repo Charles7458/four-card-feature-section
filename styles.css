@@ -25,19 +25,19 @@ p{
     font-size: 15px;
 }
 
-section {
+main {
     text-align: center;
     width: 450px;
     justify-self: center;
     margin: 100px 0px;
 }
 
-section p {
+main p {
     font-weight: 600;
     
 }
 
-section h1{
+main h1{
     font-size: 33px;
     
 }
@@ -62,6 +62,7 @@ section h1{
     align-items: center;
     justify-content: center;
     justify-self: center;
+    text-align: start;
     margin-bottom: 200px;
     column-gap: 40px;
 }
@@ -85,7 +86,7 @@ section h1{
 }
 
 .card-text {
-    width: 280px;
+    width: 300px;
     margin-bottom: 30px;
 }
 
@@ -136,7 +137,7 @@ section h1{
         justify-self: center;
     }
 
-    section {
+    main {
         width: 80%;
         margin-bottom: 50px;
     }
