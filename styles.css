@@ -25,19 +25,19 @@ p{
     font-size: 15px;
 }
 
-main {
+.intro {
     text-align: center;
     width: 500px;
     justify-self: center;
     margin: 100px 0px;
 }
 
-main p {
+.intro p {
     font-weight: 600;
     line-height: 25px;
 }
 
-main h1{
+.intro h1{
     font-size: 33px;
     
 }
@@ -137,7 +137,7 @@ main h1{
         justify-self: center;
     }
 
-    main {
+    .intro {
         width: 80%;
         margin-bottom: 50px;
     }
