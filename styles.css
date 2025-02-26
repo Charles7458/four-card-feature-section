@@ -27,14 +27,14 @@ p{
 
 main {
     text-align: center;
-    width: 450px;
+    width: 500px;
     justify-self: center;
     margin: 100px 0px;
 }
 
 main p {
     font-weight: 600;
-    
+    line-height: 25px;
 }
 
 main h1{
@@ -82,7 +82,7 @@ main h1{
 }
 
 .card p {
-    line-height: 30px;
+    line-height: 26px;
 }
 
 .card-text {
