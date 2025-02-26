@@ -32,7 +32,7 @@ Users should be able to:
 
 ### What I learned
 
-    I learned how to use css Grid to design responsive layouts.
+I learned how to use css Grid to design responsive layouts.
 
 
 ### Continued development
