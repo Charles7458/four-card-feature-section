@@ -84,7 +84,7 @@ section h1{
 }
 
 .card-text {
-    width: 250px;
+    width: 280px;
     margin-bottom: 30px;
 }
 
@@ -112,6 +112,7 @@ section h1{
 .col2 .card-1 {
     margin-bottom: 40px;
 }
+
 
 @media (max-width: 600px) {
     body {
