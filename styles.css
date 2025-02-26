@@ -1,0 +1,152 @@
+:root {
+ --Grey500: hsl(234, 12%, 34%);
+ --Grey400: hsl(212, 6%, 44%);
+ --Grey300: hsl(206, 17%, 66%);
+ --White: hsl(0, 0%, 100%);
+ --Red: hsl(0, 78%, 62%);
+ --Cyan: hsl(180, 62%, 55%);
+ --Orange: hsl(34, 97%, 64%);
+ --Blue: hsl(212, 86%, 64%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--Grey400);
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    font-size: 15px;
+}
+
+section {
+    text-align: center;
+    width: 450px;
+    justify-self: center;
+    margin: 100px 0px;
+}
+
+section p {
+    font-weight: 600;
+    
+}
+
+section h1{
+    font-size: 33px;
+    
+}
+
+.reliable {
+    font-size: clamp(25px, 2.5vw, 33px);
+    /* font-size: 33px; */
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.tech {
+    font-size: clamp(25px, 2.5vw, 33px);
+    color: var(--Grey500);
+    margin-bottom: 20px;
+}
+
+.columns {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 200px;
+    column-gap: 40px;
+}
+
+.card {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 5px 10px 0px var(--Grey300);
+    /* height: fit-content; */
+    width: 400px;
+    height: 280px;
+    padding: 30px;
+}
+
+.card h2 {
+    margin-bottom: 5px;
+}
+
+.card p {
+    line-height: 30px;
+}
+
+.card-text {
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: end;
+}
+
+.cyan-border{
+    border-top: 5px solid var(--Cyan);
+}
+
+.red-border{
+    border-top: 5px solid var(--Red);
+}
+
+.yellow-border {
+    border-top: 5px solid var(--Orange);
+}
+
+.blue-border {
+    border-top: 5px solid var(--Blue);
+}
+
+.col2 .card-1 {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    .columns{
+        width: 100%;
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+        row-gap: 40px;
+        margin-bottom: 50px;
+        justify-self: center;
+    }
+
+    section {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .col1, .col2, .col3 {
+        justify-self: center;
+        
+    }
+
+    .card {
+        width: 95%;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .columns{
+        padding: 20px;
+    }
+    .card {
+        width: 90%;
+    }
+}
