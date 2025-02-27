@@ -156,11 +156,23 @@ p{
     }
 }
 
+@media (max-width: 400px) {
+    
+    .card {
+        width: 90%;
+        justify-self: center;
+    }
+}
+
 @media (max-width: 330px) {
     .columns{
-        padding: 20px;
+        overflow-x: hidden;
     }
+
     .card {
+        width: 80%;
+    }
+    .card-text {
         width: 90%;
     }
 }
